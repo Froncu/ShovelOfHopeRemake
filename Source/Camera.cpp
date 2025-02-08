@@ -57,22 +57,6 @@ void Camera::Update(float elapsedSeconds)
 			ShiftToNextZone(elapsedSeconds);
 		}
 	}
-
-	if (InputManager::GetState(Uint8(1)))
-	{
-		const Point2f mouseWorldPosition{ (InputManager::GetMousePosition().x / m_ZOOM + m_TRANSFORMED_VIEWPORT.left),  (InputManager::GetMousePosition().y / m_ZOOM + m_TRANSFORMED_VIEWPORT.bottom) };
-
-		for (int index{}; index < m_vCAMERA_ZONES.size(); ++index)
-		{
-			if (IsPointInRectangle(mouseWorldPosition, m_vCAMERA_ZONES[index]))
-			{
-				std::cout << "Zone " << index << std::endl;
-				break;
-			}
-		}
-		
-		std::cout << int(mouseWorldPosition.x / 16) * 16 << ".0f, " << int(mouseWorldPosition.y / 16) * 16 << ".0f" << std::endl;
-	}
 }
 
 void Camera::Reset()
