@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://62jpsor1enw0"
+path="res://.godot/imported/enemy_die.mp3-e57928dfb8e559d24e7b9f603c692293.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/enemy_die.mp3"
+dest_files=["res://.godot/imported/enemy_die.mp3-e57928dfb8e559d24e7b9f603c692293.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

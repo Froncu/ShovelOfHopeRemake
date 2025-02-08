@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://i4m8do3gkmf5"
+path="res://.godot/imported/jump_01.mp3-ea6548844d21707f540e9ed9a2441431.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/jump_01.mp3"
+dest_files=["res://.godot/imported/jump_01.mp3-ea6548844d21707f540e9ed9a2441431.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

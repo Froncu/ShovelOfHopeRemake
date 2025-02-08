@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brotwcxl1lbql"
+path="res://.godot/imported/jouster_crash.mp3-ffb51c2e94e540e4661e9b3616fc167b.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/jouster_crash.mp3"
+dest_files=["res://.godot/imported/jouster_crash.mp3-ffb51c2e94e540e4661e9b3616fc167b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

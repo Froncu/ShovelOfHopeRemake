@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxvf21fr4xiur"
+path="res://.godot/imported/tpin_charge.mp3-9901354b23e33b651235b6073de88697.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/tpin_charge.mp3"
+dest_files=["res://.godot/imported/tpin_charge.mp3-9901354b23e33b651235b6073de88697.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b1354h7lkm1ox"
+path="res://.godot/imported/plague_leech_collect.mp3-72b46cd2b4e79874d45927535834d5b3.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/plague_leech_collect.mp3"
+dest_files=["res://.godot/imported/plague_leech_collect.mp3-72b46cd2b4e79874d45927535834d5b3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

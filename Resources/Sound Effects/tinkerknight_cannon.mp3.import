@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bho4kvcxx7v28"
+path="res://.godot/imported/tinkerknight_cannon.mp3-a92a86fbaf1d54b544ac4b6deb67d4d2.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/tinkerknight_cannon.mp3"
+dest_files=["res://.godot/imported/tinkerknight_cannon.mp3-a92a86fbaf1d54b544ac4b6deb67d4d2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

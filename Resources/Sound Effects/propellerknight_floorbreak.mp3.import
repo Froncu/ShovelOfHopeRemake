@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c26irtb7up0q6"
+path="res://.godot/imported/propellerknight_floorbreak.mp3-4011eff7f9bf2640f4c0f30a20e6d044.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/propellerknight_floorbreak.mp3"
+dest_files=["res://.godot/imported/propellerknight_floorbreak.mp3-4011eff7f9bf2640f4c0f30a20e6d044.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

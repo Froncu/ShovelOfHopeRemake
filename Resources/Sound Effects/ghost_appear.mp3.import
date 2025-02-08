@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dxumewlpe8htr"
+path="res://.godot/imported/ghost_appear.mp3-63083a4b6dc3687a3a909f24a52e78fc.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/ghost_appear.mp3"
+dest_files=["res://.godot/imported/ghost_appear.mp3-63083a4b6dc3687a3a909f24a52e78fc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

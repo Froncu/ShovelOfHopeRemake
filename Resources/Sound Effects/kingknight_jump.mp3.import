@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bpb1i0aotom8v"
+path="res://.godot/imported/kingknight_jump.mp3-a02d3df1767164ecaf7b5a384a39ffa7.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/kingknight_jump.mp3"
+dest_files=["res://.godot/imported/kingknight_jump.mp3-a02d3df1767164ecaf7b5a384a39ffa7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

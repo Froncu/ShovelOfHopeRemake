@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cygls4sgsg8jf"
+path="res://.godot/imported/rockbig_land.mp3-bf4f1b1415b3eba2d7dfc5e18425ea29.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/rockbig_land.mp3"
+dest_files=["res://.godot/imported/rockbig_land.mp3-bf4f1b1415b3eba2d7dfc5e18425ea29.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

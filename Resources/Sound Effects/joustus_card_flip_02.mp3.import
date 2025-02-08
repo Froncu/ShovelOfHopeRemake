@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfxfmu3ru2fy"
+path="res://.godot/imported/joustus_card_flip_02.mp3-7c1bd989083194ba2e927e9f7c7a90ae.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/joustus_card_flip_02.mp3"
+dest_files=["res://.godot/imported/joustus_card_flip_02.mp3-7c1bd989083194ba2e927e9f7c7a90ae.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

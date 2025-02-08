@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bw8cj8ks7jnf5"
+path="res://.godot/imported/moleknight_digpiles.mp3-7d92448d6a563f37cb62825e4305f969.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/moleknight_digpiles.mp3"
+dest_files=["res://.godot/imported/moleknight_digpiles.mp3-7d92448d6a563f37cb62825e4305f969.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

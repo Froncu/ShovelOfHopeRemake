@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bss4hvske5ljo"
+path="res://.godot/imported/spectre_slash_01.mp3-c0f29df988260575ddca9bdd508e13f1.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/spectre_slash_01.mp3"
+dest_files=["res://.godot/imported/spectre_slash_01.mp3-c0f29df988260575ddca9bdd508e13f1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

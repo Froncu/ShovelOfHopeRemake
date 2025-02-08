@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7bk65yf8s0q6"
+path="res://.godot/imported/enchantress_fireball.mp3-785c2f338878948b6c0c34112bef4a05.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/enchantress_fireball.mp3"
+dest_files=["res://.godot/imported/enchantress_fireball.mp3-785c2f338878948b6c0c34112bef4a05.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

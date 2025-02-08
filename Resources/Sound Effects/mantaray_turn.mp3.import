@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7uablku77nb6"
+path="res://.godot/imported/mantaray_turn.mp3-1463aa041572a4888101a3032e1324fa.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/mantaray_turn.mp3"
+dest_files=["res://.godot/imported/mantaray_turn.mp3-1463aa041572a4888101a3032e1324fa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

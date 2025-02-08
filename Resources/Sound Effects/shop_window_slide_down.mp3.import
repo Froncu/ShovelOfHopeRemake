@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfrwl0tlwsv71"
+path="res://.godot/imported/shop_window_slide_down.mp3-5056d10aab13a8813337147287ebad91.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/shop_window_slide_down.mp3"
+dest_files=["res://.godot/imported/shop_window_slide_down.mp3-5056d10aab13a8813337147287ebad91.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

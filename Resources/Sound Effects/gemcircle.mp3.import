@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bim8f4njlwsaa"
+path="res://.godot/imported/gemcircle.mp3-ec35d21bd5d3c006d10a43a5f17e972a.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/gemcircle.mp3"
+dest_files=["res://.godot/imported/gemcircle.mp3-ec35d21bd5d3c006d10a43a5f17e972a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

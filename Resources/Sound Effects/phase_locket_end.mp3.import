@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d2e5185ot37eu"
+path="res://.godot/imported/phase_locket_end.mp3-a011811ea8981facd0068d45254acf43.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/phase_locket_end.mp3"
+dest_files=["res://.godot/imported/phase_locket_end.mp3-a011811ea8981facd0068d45254acf43.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

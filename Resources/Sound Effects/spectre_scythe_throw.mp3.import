@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhklki51ivuoe"
+path="res://.godot/imported/spectre_scythe_throw.mp3-6e24f87516564830835294fb8b3b2834.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/spectre_scythe_throw.mp3"
+dest_files=["res://.godot/imported/spectre_scythe_throw.mp3-6e24f87516564830835294fb8b3b2834.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

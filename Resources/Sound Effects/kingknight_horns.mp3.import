@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bjq5ajm8cc1u4"
+path="res://.godot/imported/kingknight_horns.mp3-4185eae6b2503b3758be329c8557db3d.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/kingknight_horns.mp3"
+dest_files=["res://.godot/imported/kingknight_horns.mp3-4185eae6b2503b3758be329c8557db3d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

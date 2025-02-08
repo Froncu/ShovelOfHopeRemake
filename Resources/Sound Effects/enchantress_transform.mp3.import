@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bsdp4842pfr1y"
+path="res://.godot/imported/enchantress_transform.mp3-3028b6f0a9bbfe9208f8b532a41e7fff.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/enchantress_transform.mp3"
+dest_files=["res://.godot/imported/enchantress_transform.mp3-3028b6f0a9bbfe9208f8b532a41e7fff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dh0dk38fb6io4"
+path="res://.godot/imported/gryphon_die.mp3-9d6c10ad4ec4d8bd41303a0de4be9ea1.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/gryphon_die.mp3"
+dest_files=["res://.godot/imported/gryphon_die.mp3-9d6c10ad4ec4d8bd41303a0de4be9ea1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

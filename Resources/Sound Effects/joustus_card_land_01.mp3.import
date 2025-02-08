@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cl8i22oo4v08r"
+path="res://.godot/imported/joustus_card_land_01.mp3-dc003c510fe64331181bc5d5eb71ffdc.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/joustus_card_land_01.mp3"
+dest_files=["res://.godot/imported/joustus_card_land_01.mp3-dc003c510fe64331181bc5d5eb71ffdc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

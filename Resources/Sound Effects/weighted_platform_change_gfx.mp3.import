@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bejxxq1ms2c7k"
+path="res://.godot/imported/weighted_platform_change_gfx.mp3-2dd80b585b726b7444a36b9b6d684e7e.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/weighted_platform_change_gfx.mp3"
+dest_files=["res://.godot/imported/weighted_platform_change_gfx.mp3-2dd80b585b726b7444a36b9b6d684e7e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

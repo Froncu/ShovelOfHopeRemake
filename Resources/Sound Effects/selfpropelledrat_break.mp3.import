@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cxn06301ugs4q"
+path="res://.godot/imported/selfpropelledrat_break.mp3-9b01afdc7ca2df389a954a18d87d6c49.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/selfpropelledrat_break.mp3"
+dest_files=["res://.godot/imported/selfpropelledrat_break.mp3-9b01afdc7ca2df389a954a18d87d6c49.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

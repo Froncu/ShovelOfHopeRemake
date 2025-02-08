@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cb0i3cpho28jd"
+path="res://.godot/imported/mobilegear_move.mp3-d3d03dabca041b3ced32498b500436d2.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/mobilegear_move.mp3"
+dest_files=["res://.godot/imported/mobilegear_move.mp3-d3d03dabca041b3ced32498b500436d2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

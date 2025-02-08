@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crbsa8wcsoub7"
+path="res://.godot/imported/weighted_platform_sink.mp3-6a64f391880986b923752f8e34b32433.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/weighted_platform_sink.mp3"
+dest_files=["res://.godot/imported/weighted_platform_sink.mp3-6a64f391880986b923752f8e34b32433.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

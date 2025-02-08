@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cg2hl5lj5she1"
+path="res://.godot/imported/spectre_screwattack.mp3-5096233b0087f4e2c29ab0f7845e9903.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/spectre_screwattack.mp3"
+dest_files=["res://.godot/imported/spectre_screwattack.mp3-5096233b0087f4e2c29ab0f7845e9903.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

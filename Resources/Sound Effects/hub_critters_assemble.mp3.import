@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bo1gja25kxea7"
+path="res://.godot/imported/hub_critters_assemble.mp3-8a758f9b20d18381fbd82f5ab011b568.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/hub_critters_assemble.mp3"
+dest_files=["res://.godot/imported/hub_critters_assemble.mp3-8a758f9b20d18381fbd82f5ab011b568.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

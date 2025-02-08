@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dsh6fpau2edd"
+path="res://.godot/imported/mobilegear_spawn.mp3-5cde1813b441de66e890fba8d6ae57d2.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/mobilegear_spawn.mp3"
+dest_files=["res://.godot/imported/mobilegear_spawn.mp3-5cde1813b441de66e890fba8d6ae57d2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://biqdf3m26oxxb"
+path="res://.godot/imported/propeller_dagger_thrust.mp3-2f4430b98333b115da4ae492740d7876.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/propeller_dagger_thrust.mp3"
+dest_files=["res://.godot/imported/propeller_dagger_thrust.mp3-2f4430b98333b115da4ae492740d7876.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

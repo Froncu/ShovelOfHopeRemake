@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://db0w57j45qmkt"
+path="res://.godot/imported/plague_smokebomb.mp3-4b16b96917278e6f687af32eb391f7c9.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/plague_smokebomb.mp3"
+dest_files=["res://.godot/imported/plague_smokebomb.mp3-4b16b96917278e6f687af32eb391f7c9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

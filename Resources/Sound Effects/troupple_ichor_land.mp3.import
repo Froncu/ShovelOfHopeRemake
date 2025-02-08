@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://beri0s2moa1a6"
+path="res://.godot/imported/troupple_ichor_land.mp3-ce37cce34157a3a0a9ea7010d1dd4479.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/troupple_ichor_land.mp3"
+dest_files=["res://.godot/imported/troupple_ichor_land.mp3-ce37cce34157a3a0a9ea7010d1dd4479.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

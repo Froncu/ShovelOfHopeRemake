@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dqqgvsuupk4xj"
+path="res://.godot/imported/rock_downthrust.mp3-8a146f517c8d34784e44761e31ce828d.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/rock_downthrust.mp3"
+dest_files=["res://.godot/imported/rock_downthrust.mp3-8a146f517c8d34784e44761e31ce828d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

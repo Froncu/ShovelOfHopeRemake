@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ct7oth0yqnnn6"
+path="res://.godot/imported/btoads_punch_03.mp3-10bdbd203970cd7ecd7c8875cadac672.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/btoads_punch_03.mp3"
+dest_files=["res://.godot/imported/btoads_punch_03.mp3-10bdbd203970cd7ecd7c8875cadac672.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

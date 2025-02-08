@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dkmvp7mo3w0ec"
+path="res://.godot/imported/playfield_dirt_loop.mp3-9b8af6366d8513e55b156f06ad8c1277.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/playfield_dirt_loop.mp3"
+dest_files=["res://.godot/imported/playfield_dirt_loop.mp3-9b8af6366d8513e55b156f06ad8c1277.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

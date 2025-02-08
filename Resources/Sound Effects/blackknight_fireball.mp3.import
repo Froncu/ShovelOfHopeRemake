@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cif6kska21yw1"
+path="res://.godot/imported/blackknight_fireball.mp3-8187843aa7b559ed6043bc34396e6b18.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/blackknight_fireball.mp3"
+dest_files=["res://.godot/imported/blackknight_fireball.mp3-8187843aa7b559ed6043bc34396e6b18.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

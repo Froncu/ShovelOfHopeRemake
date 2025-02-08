@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d8bm0vp7g1xc"
+path="res://.godot/imported/polarknight_shovelland.mp3-7b7e4f1c7b28a696aca58f069ff566dc.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/polarknight_shovelland.mp3"
+dest_files=["res://.godot/imported/polarknight_shovelland.mp3-7b7e4f1c7b28a696aca58f069ff566dc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2l3eck70qph4"
+path="res://.godot/imported/plague_sparkler_explode.mp3-6c855c9777f9e452c3347c44714bcd49.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/plague_sparkler_explode.mp3"
+dest_files=["res://.godot/imported/plague_sparkler_explode.mp3-6c855c9777f9e452c3347c44714bcd49.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

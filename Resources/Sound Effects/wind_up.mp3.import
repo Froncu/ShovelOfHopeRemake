@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3nu1trtl1kmv"
+path="res://.godot/imported/wind_up.mp3-e1100b6cb925f85b45d7e604b081e9ff.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/wind_up.mp3"
+dest_files=["res://.godot/imported/wind_up.mp3-e1100b6cb925f85b45d7e604b081e9ff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkel3lpdblyw5"
+path="res://.godot/imported/reize_boomerang.mp3-0f092d9403bddda35d7b7d4a1033bc75.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/reize_boomerang.mp3"
+dest_files=["res://.godot/imported/reize_boomerang.mp3-0f092d9403bddda35d7b7d4a1033bc75.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

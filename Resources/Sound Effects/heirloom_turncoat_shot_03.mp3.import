@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bpkrkgxgjrqm5"
+path="res://.godot/imported/heirloom_turncoat_shot_03.mp3-0ffef4b31051530008f2375255e45c39.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/heirloom_turncoat_shot_03.mp3"
+dest_files=["res://.godot/imported/heirloom_turncoat_shot_03.mp3-0ffef4b31051530008f2375255e45c39.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

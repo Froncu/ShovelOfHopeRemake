@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dy7p7s2m2yq4d"
+path="res://.godot/imported/proprat_change_dir.mp3-10f853992ce615141b96b0c50034d1a3.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/proprat_change_dir.mp3"
+dest_files=["res://.godot/imported/proprat_change_dir.mp3-10f853992ce615141b96b0c50034d1a3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

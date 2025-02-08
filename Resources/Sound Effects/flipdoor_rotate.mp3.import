@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ms1ejaw6nnue"
+path="res://.godot/imported/flipdoor_rotate.mp3-b596eab8f985f96bf1140fef3daa2f7d.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/flipdoor_rotate.mp3"
+dest_files=["res://.godot/imported/flipdoor_rotate.mp3-b596eab8f985f96bf1140fef3daa2f7d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

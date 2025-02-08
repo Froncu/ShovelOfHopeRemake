@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bdjki8xqujhja"
+path="res://.godot/imported/sp_scythe_attack_LOOP.mp3-aa6fb9f2b43dac1df4fe5211b230d3e6.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/sp_scythe_attack_LOOP.mp3"
+dest_files=["res://.godot/imported/sp_scythe_attack_LOOP.mp3-aa6fb9f2b43dac1df4fe5211b230d3e6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ou53rg351bqw"
+path="res://.godot/imported/cannonball_slice.mp3-b621d9292ba97ee265489835e6e893fb.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/cannonball_slice.mp3"
+dest_files=["res://.godot/imported/cannonball_slice.mp3-b621d9292ba97ee265489835e6e893fb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

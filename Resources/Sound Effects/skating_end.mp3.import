@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://btwr3pyi84437"
+path="res://.godot/imported/skating_end.mp3-70a1c85e234e7b0357a48dce6febd9f8.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/skating_end.mp3"
+dest_files=["res://.godot/imported/skating_end.mp3-70a1c85e234e7b0357a48dce6febd9f8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

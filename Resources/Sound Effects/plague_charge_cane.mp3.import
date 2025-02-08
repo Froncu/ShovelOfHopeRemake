@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cnsd4lhxhp3rr"
+path="res://.godot/imported/plague_charge_cane.mp3-8398d6396586008e16a7c4b417958c61.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/plague_charge_cane.mp3"
+dest_files=["res://.godot/imported/plague_charge_cane.mp3-8398d6396586008e16a7c4b417958c61.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

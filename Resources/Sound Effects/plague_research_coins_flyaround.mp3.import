@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://kytujwvegbcp"
+path="res://.godot/imported/plague_research_coins_flyaround.mp3-25e47dffcfae7bef7d70ebe7cccd1e67.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/plague_research_coins_flyaround.mp3"
+dest_files=["res://.godot/imported/plague_research_coins_flyaround.mp3-25e47dffcfae7bef7d70ebe7cccd1e67.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

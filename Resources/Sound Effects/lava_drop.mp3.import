@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7pnv13ij3hns"
+path="res://.godot/imported/lava_drop.mp3-9a000421e753bb04106bd80445070219.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/lava_drop.mp3"
+dest_files=["res://.godot/imported/lava_drop.mp3-9a000421e753bb04106bd80445070219.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

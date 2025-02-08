@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://j2oiiflf8dbp"
+path="res://.godot/imported/shieldknight_block.mp3-3640b14cd2af577ef8bdf6a37d613fe9.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/shieldknight_block.mp3"
+dest_files=["res://.godot/imported/shieldknight_block.mp3-3640b14cd2af577ef8bdf6a37d613fe9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

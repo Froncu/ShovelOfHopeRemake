@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b887ge8tr7qsn"
+path="res://.godot/imported/player_catapult_fall.mp3-c4b6eb0dccbb1074a865ccf207512341.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/player_catapult_fall.mp3"
+dest_files=["res://.godot/imported/player_catapult_fall.mp3-c4b6eb0dccbb1074a865ccf207512341.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

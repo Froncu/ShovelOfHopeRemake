@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7hkebv0x36dq"
+path="res://.godot/imported/enchantress_fireblocks_die.mp3-0168f0f748ed7c749add3b957c538932.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/enchantress_fireblocks_die.mp3"
+dest_files=["res://.godot/imported/enchantress_fireblocks_die.mp3-0168f0f748ed7c749add3b957c538932.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

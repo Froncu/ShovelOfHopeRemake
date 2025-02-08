@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1f37pmmlb38k"
+path="res://.godot/imported/moleminion_die.mp3-ee914fb41581a6b4b5fc1df3d9991dd3.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/moleminion_die.mp3"
+dest_files=["res://.godot/imported/moleminion_die.mp3-ee914fb41581a6b4b5fc1df3d9991dd3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

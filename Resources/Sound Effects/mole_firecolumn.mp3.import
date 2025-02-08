@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://gxvyua3lxsyc"
+path="res://.godot/imported/mole_firecolumn.mp3-c2a6ef545c36d9bc5f09ef0cdc6762e0.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/mole_firecolumn.mp3"
+dest_files=["res://.godot/imported/mole_firecolumn.mp3-c2a6ef545c36d9bc5f09ef0cdc6762e0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

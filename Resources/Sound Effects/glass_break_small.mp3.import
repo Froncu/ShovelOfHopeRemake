@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dgkuguxo5o6y7"
+path="res://.godot/imported/glass_break_small.mp3-eb321c0606a01fe6550d7253d5ad5c30.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/glass_break_small.mp3"
+dest_files=["res://.godot/imported/glass_break_small.mp3-eb321c0606a01fe6550d7253d5ad5c30.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

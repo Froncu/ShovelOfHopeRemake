@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cy1s1pxd7a3v"
+path="res://.godot/imported/moleknight_superman.mp3-f9a073dcd061d4de1aff2ff48af9d798.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/moleknight_superman.mp3"
+dest_files=["res://.godot/imported/moleknight_superman.mp3-f9a073dcd061d4de1aff2ff48af9d798.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

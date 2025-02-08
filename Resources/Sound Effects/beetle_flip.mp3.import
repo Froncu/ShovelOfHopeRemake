@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dsb4m10p8ei18"
+path="res://.godot/imported/beetle_flip.mp3-e403b6751de37ca0a1ead0c82213c752.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/beetle_flip.mp3"
+dest_files=["res://.godot/imported/beetle_flip.mp3-e403b6751de37ca0a1ead0c82213c752.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

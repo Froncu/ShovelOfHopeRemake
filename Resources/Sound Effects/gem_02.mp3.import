@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://s1j1h4tp6uti"
+path="res://.godot/imported/gem_02.mp3-7112aa67a9f1fd59e647e1e40bfa92f1.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/gem_02.mp3"
+dest_files=["res://.godot/imported/gem_02.mp3-7112aa67a9f1fd59e647e1e40bfa92f1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmrmad0vm5rbx"
+path="res://.godot/imported/kratos_death.mp3-b426d277cbeeb3f62238c8edc472096d.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/kratos_death.mp3"
+dest_files=["res://.godot/imported/kratos_death.mp3-b426d277cbeeb3f62238c8edc472096d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

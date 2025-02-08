@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1f125q2mxcn2"
+path="res://.godot/imported/blackknight_transform.mp3-9a17b0986c61e5ed41ebc5f86d0ebe27.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/blackknight_transform.mp3"
+dest_files=["res://.godot/imported/blackknight_transform.mp3-9a17b0986c61e5ed41ebc5f86d0ebe27.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

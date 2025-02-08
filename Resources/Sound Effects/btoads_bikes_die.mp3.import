@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://oi2pq6pct21w"
+path="res://.godot/imported/btoads_bikes_die.mp3-223853270b11ca1281e0b17b88b71b6f.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/btoads_bikes_die.mp3"
+dest_files=["res://.godot/imported/btoads_bikes_die.mp3-223853270b11ca1281e0b17b88b71b6f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

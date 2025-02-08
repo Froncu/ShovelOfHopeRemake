@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ck0txk6i7upv6"
+path="res://.godot/imported/spin_rebound.mp3-87803c00b0f8f1e2449a55c8c89134d1.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/spin_rebound.mp3"
+dest_files=["res://.godot/imported/spin_rebound.mp3-87803c00b0f8f1e2449a55c8c89134d1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

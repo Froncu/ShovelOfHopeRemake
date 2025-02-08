@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmgd0bhgqqug6"
+path="res://.godot/imported/shovel_dislodge.mp3-6858925f90ebb37b5b3851540b2b7ba0.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/shovel_dislodge.mp3"
+dest_files=["res://.godot/imported/shovel_dislodge.mp3-6858925f90ebb37b5b3851540b2b7ba0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

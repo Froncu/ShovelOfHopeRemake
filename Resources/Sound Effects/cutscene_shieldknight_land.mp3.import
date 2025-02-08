@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d4jt72m1k4jrp"
+path="res://.godot/imported/cutscene_shieldknight_land.mp3-85b3876acf512cb6c833ec6492d6d301.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/cutscene_shieldknight_land.mp3"
+dest_files=["res://.godot/imported/cutscene_shieldknight_land.mp3-85b3876acf512cb6c833ec6492d6d301.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

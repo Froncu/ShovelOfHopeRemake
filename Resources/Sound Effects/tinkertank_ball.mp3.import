@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dxigxykmc537e"
+path="res://.godot/imported/tinkertank_ball.mp3-a43cbe852228476131cd7bef12fe01bb.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/tinkertank_ball.mp3"
+dest_files=["res://.godot/imported/tinkertank_ball.mp3-a43cbe852228476131cd7bef12fe01bb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

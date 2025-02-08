@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brlwmlj7m0er4"
+path="res://.godot/imported/joustus_battle_start_special.mp3-065369ceccb6bad49fbb163b1f0ab4c3.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/joustus_battle_start_special.mp3"
+dest_files=["res://.godot/imported/joustus_battle_start_special.mp3-065369ceccb6bad49fbb163b1f0ab4c3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

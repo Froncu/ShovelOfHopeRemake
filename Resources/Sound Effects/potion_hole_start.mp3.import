@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0g3u5jx2m3gg"
+path="res://.godot/imported/potion_hole_start.mp3-e200d9e5c40b932457e3fc5ce5bd7d0c.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/potion_hole_start.mp3"
+dest_files=["res://.godot/imported/potion_hole_start.mp3-e200d9e5c40b932457e3fc5ce5bd7d0c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

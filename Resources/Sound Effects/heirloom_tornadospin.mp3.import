@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cr4keka3imhrl"
+path="res://.godot/imported/heirloom_tornadospin.mp3-f90dbcb929e6ac8b7be6f01469f07c4b.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/heirloom_tornadospin.mp3"
+dest_files=["res://.godot/imported/heirloom_tornadospin.mp3-f90dbcb929e6ac8b7be6f01469f07c4b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

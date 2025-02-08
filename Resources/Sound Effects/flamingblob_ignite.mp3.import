@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cirh36mcwtyfh"
+path="res://.godot/imported/flamingblob_ignite.mp3-42d62d4d96accce4a00178407c5aad07.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/flamingblob_ignite.mp3"
+dest_files=["res://.godot/imported/flamingblob_ignite.mp3-42d62d4d96accce4a00178407c5aad07.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

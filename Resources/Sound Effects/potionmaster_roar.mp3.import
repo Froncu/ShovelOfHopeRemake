@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://qop1qpm3v828"
+path="res://.godot/imported/potionmaster_roar.mp3-4fe0b5bc26aa5ca8bddf743c4f6ce08b.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/potionmaster_roar.mp3"
+dest_files=["res://.godot/imported/potionmaster_roar.mp3-4fe0b5bc26aa5ca8bddf743c4f6ce08b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

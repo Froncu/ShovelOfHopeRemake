@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://82qa4wos8nrn"
+path="res://.godot/imported/spectre_vanish.mp3-d267d2a30dcae45d0891fb9f910c5765.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/spectre_vanish.mp3"
+dest_files=["res://.godot/imported/spectre_vanish.mp3-d267d2a30dcae45d0891fb9f910c5765.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

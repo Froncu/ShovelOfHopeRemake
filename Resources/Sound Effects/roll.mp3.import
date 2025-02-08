@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://2dnm386gndno"
+path="res://.godot/imported/roll.mp3-3ac4f9ed20949e94b3a21eae8b3c62a5.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/roll.mp3"
+dest_files=["res://.godot/imported/roll.mp3-3ac4f9ed20949e94b3a21eae8b3c62a5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

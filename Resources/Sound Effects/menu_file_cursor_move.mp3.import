@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://eqajwkbtwyxl"
+path="res://.godot/imported/menu_file_cursor_move.mp3-882d6f7bf9dcd467a36210cfd34f9576.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/menu_file_cursor_move.mp3"
+dest_files=["res://.godot/imported/menu_file_cursor_move.mp3-882d6f7bf9dcd467a36210cfd34f9576.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

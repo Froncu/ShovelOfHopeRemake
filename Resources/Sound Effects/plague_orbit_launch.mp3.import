@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dx08o2eao76tn"
+path="res://.godot/imported/plague_orbit_launch.mp3-3cab75bc2ba999b19f2a45ca99e0fc51.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/plague_orbit_launch.mp3"
+dest_files=["res://.godot/imported/plague_orbit_launch.mp3-3cab75bc2ba999b19f2a45ca99e0fc51.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

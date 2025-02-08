@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3wqo61sat4p"
+path="res://.godot/imported/selfpropelledrat_zap.mp3-6febada98e59b55d4623b58835c7020e.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/selfpropelledrat_zap.mp3"
+dest_files=["res://.godot/imported/selfpropelledrat_zap.mp3-6febada98e59b55d4623b58835c7020e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

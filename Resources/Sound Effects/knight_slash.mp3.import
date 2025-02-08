@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://le5kw4dle15g"
+path="res://.godot/imported/knight_slash.mp3-add21afb5b8b50bfefb46f8b701fedfb.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/knight_slash.mp3"
+dest_files=["res://.godot/imported/knight_slash.mp3-add21afb5b8b50bfefb46f8b701fedfb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

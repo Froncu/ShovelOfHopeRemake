@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c7x7x83mo84ha"
+path="res://.godot/imported/joustus_mysterycard_have.mp3-e938d01e212346cb23dd3118613c77dc.mp3str"
+
+[deps]
+
+source_file="res://DAE/Semester 2/Programming 2/End Assignment/Final/Resources/Sound Effects/joustus_mysterycard_have.mp3"
+dest_files=["res://.godot/imported/joustus_mysterycard_have.mp3-e938d01e212346cb23dd3118613c77dc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
