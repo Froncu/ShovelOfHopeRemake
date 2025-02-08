@@ -10,6 +10,10 @@ add_library(Engine STATIC
    Source/utils.cpp
    Source/Vector2f.cpp)
 
+set_target_properties(Engine PROPERTIES
+   CXX_STANDARD 14
+   CXX_STANDARD_REQUIRED TRUE)
+
 target_include_directories(Engine PUBLIC Include)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/CMake)
