@@ -16,7 +16,7 @@ ShovelKnight::ShovelKnight(const Point2f& bottomLeft, int startingHealth, int st
 	HitBox(m_RootCenter),
 	Interactor(m_RootCenter, 0.0f, -2.0f, 15.0f, 22.0f),
 	Pickupper(m_RootCenter, 15.0f, 26.0f),
-	SimpleSprite(m_RootCenter, 0.0f, 8.5f, "Entities/ShovelKnight.png", 9),
+	SimpleSprite(m_RootCenter, 0.0f, 8.5f, "Resources/Entities/ShovelKnight.png", 9),
 	SpriteAnimator(6, 15, 0.09f, 1, 1),
 
 	m_MaxIdleTime{ 8.0f },
@@ -138,7 +138,7 @@ void ShovelKnight::OnCollision(const utils::HitInfo& hitInfo)
 	{
 		if (!InputManager::GetState(SDLK_SPACE) && m_JumpChargeState == JumpChargeState::ChargeCooldown)
 		{
-			SoundManager::PlayEffect("Audio/PlayerLand.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/PlayerLand.wav", false);
 			m_JumpChargeState = JumpChargeState::None;
 		}
 
@@ -179,7 +179,7 @@ void ShovelKnight::OnHit(const Vector2f& hitNormals, const Vector2f& knockBackVe
 			m_Velocity.y = knockBackVelocity.y;
 
 			const Point2f fxPosition{ m_RootCenter.x, m_RootCenter.y - 16.0f };
-			GameObject::AddGameObject(new FX(fxPosition, "FX/DownThrustSpark.png", 4, 12));
+			GameObject::AddGameObject(new FX(fxPosition, "Resources/FX/DownThrustSpark.png", 4, 12));
 		}
 	}
 }
@@ -199,12 +199,12 @@ void ShovelKnight::OnHurt(const Vector2f& hurtNormals, int damage, int localHurt
 
 		if (m_Health)
 		{
-			SoundManager::PlayEffect("Audio/PlayerDamage.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/PlayerDamage.wav", false);
 			SimpleSprite::Blink(25, 2);
 		}
 		else
 		{
-			SoundManager::PlayEffect("Audio/PlayerDie.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/PlayerDie.wav", false);
 
 			const int totalToDrop{ m_Score / 4 };
 			if (totalToDrop > 0)
@@ -420,7 +420,7 @@ void ShovelKnight::HandleSwingState(float elapsedSeconds)
 	case ShovelKnight::SwingingState::None:
 		if (m_CombatState == CombatState::Swinging)
 		{
-			SoundManager::PlayEffect("Audio/PlayerShovel.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/PlayerShovel.wav", false);
 			m_SwingingState = SwingingState::SwingingCooldown;
 		}
 		break;
@@ -499,7 +499,7 @@ void ShovelKnight::HandleJumpChargeState(float elapsedSeconds)
 	case ShovelKnight::JumpChargeState::None:
 		if (InputManager::GetState(SDLK_SPACE))
 		{
-			SoundManager::PlayEffect("Audio/PlayerJump.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/PlayerJump.wav", false);
 			m_AccumulatedJumpChargeSeconds = 0;
 			m_Velocity.y = m_JumpVelocity;
 			m_AccumulatedJumpChargeSeconds += elapsedSeconds;

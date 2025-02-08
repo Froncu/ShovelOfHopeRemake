@@ -11,7 +11,7 @@ Bubble::Bubble(const Point2f& center, const Point2f& localTargetCenter, bool res
 	HurtBox(m_RootCenter),
 	HitBox(m_RootCenter),
 	Rigidbody(m_RootCenter, 1.0f, Vector2f(200.0f, 32.0f)),
-	SimpleSprite(m_RootCenter, 0, 0, "Environment/Bubble.png", 11),
+	SimpleSprite(m_RootCenter, 0, 0, "Resources/Environment/Bubble.png", 11),
 	SpriteAnimator(4, 1, 0.2f),
 
 	m_SpawnCenter{ m_RootCenter }, m_TargetCenter{ m_SpawnCenter.x + localTargetCenter.x, m_SpawnCenter.y + localTargetCenter.y },
@@ -108,7 +108,7 @@ void Bubble::OnHit(const Vector2f& hitNormals, const Vector2f& knockBackVelocity
 
 void Bubble::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxIndex)
 {
-	if (hurtNormals.y) SoundManager::PlayEffect("Audio/BubbleThrust.wav", false);
+	if (hurtNormals.y) SoundManager::PlayEffect("Resources/Audio/BubbleThrust.wav", false);
 	Pop();
 }
 #pragma endregion Components
@@ -119,7 +119,7 @@ void Bubble::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxInd
 void Bubble::Pop()
 {
 	GameObject::Delete();
-	GameObject::AddGameObject(new FX{ m_RootCenter, "FX/BubblePop.png", 2, 11 });
+	GameObject::AddGameObject(new FX{ m_RootCenter, "Resources/FX/BubblePop.png", 2, 11 });
 
 	if (m_Respawn)
 	{

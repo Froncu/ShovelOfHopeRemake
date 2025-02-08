@@ -12,7 +12,7 @@
 DigPile::DigPile(const Point2f& bottomLeft) :
 	GameObject(bottomLeft.x + 8.0f, bottomLeft.y + 7.5f, true),
 	HurtBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/DigPile.png", 7),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/DigPile.png", 7),
 	SpriteAnimator(5, 10, 0.1f, 0, 1),
 
 	m_MaxIdleSeconds{ 4.0f },
@@ -49,7 +49,7 @@ void DigPile::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxIn
 {
 	if (!hurtNormals.y)
 	{
-		SoundManager::PlayEffect("Audio/DigPile.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/DigPile.wav", false);
 
 		m_CurrentRowIndex += 2;
 		SpriteAnimator::SetCurrentRowIndex(m_CurrentRowIndex, 1);
@@ -94,7 +94,7 @@ void DigPile::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxIn
 			const Vector2f minimalRandomInitialVelocity{ 50.0f + droppedAmount * 25.0f, 320.0f }, maximalRandomInitialVelocity{ 75.0f + droppedAmount * 25.0f, 360.0f };
 			const Vector2f randomInitialVelocity{ myutils::GetRandom(maximalRandomInitialVelocity, minimalRandomInitialVelocity) };
 
-			const std::string particlePath{ "Particles/DirtParticle" + std::to_string(myutils::GetRandom(1)) + ".png" };
+			const std::string particlePath{ "Resources/Particles/DirtParticle" + std::to_string(myutils::GetRandom(1)) + ".png" };
 			GameObject::AddGameObject(new Particle{ m_RootCenter, particlePath, hurtNormals.x * randomInitialVelocity.x, randomInitialVelocity.y });
 		}
 	}

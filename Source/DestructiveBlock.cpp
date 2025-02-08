@@ -6,7 +6,7 @@ DestructiveBlock::DestructiveBlock(const Point2f& bottomLeft, int row) :
 	GameObject(bottomLeft.x + 8.0f, bottomLeft.y + 8.0f),
 	KinematicCollider(m_RootCenter, 16.0f, 16.0f),
 	HurtBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/TileableDestructive.png", 10),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/TileableDestructive.png", 10),
 	SpriteAnimator(1, 13, INFINITY),
 
 	m_WasHurt{},

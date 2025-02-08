@@ -15,7 +15,7 @@ Dozedrake::Dozedrake(const Point2f& bottomLeft) :
 	Rigidbody(m_RootCenter, 0.0f, Vector2f(48.0f, 0.0f)),
 	HurtBox(m_RootCenter),
 	HitBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 12.0f, -2.0f, "Entities/Dozedrake.png", 8),
+	SimpleSprite(m_RootCenter, 12.0f, -2.0f, "Resources/Entities/Dozedrake.png", 8),
 	SpriteAnimator(12, 6, 0.1f, 0, 12),
 
 	m_State{ State::Sleeping },
@@ -114,13 +114,13 @@ void Dozedrake::Update(float elapsedSeconds)
 	case Dozedrake::State::Dying:
 		m_AccumulatedDyingSeconds += elapsedSeconds;
 
-		if (m_AccumulatedDyingSeconds <= m_MaxKnockingSeconds) SoundManager::PlayEffect("Audio/BubbleThrust.wav", false);
+		if (m_AccumulatedDyingSeconds <= m_MaxKnockingSeconds) SoundManager::PlayEffect("Resources/Audio/BubbleThrust.wav", false);
 
 		if (m_AccumulatedDyingSeconds >= m_MaxDyingSeconds)
 		{
 			GameObject::Delete();
 
-			GameObject::AddGameObject(new FX{ m_RootCenter.x + 24.0f, m_RootCenter.y, "FX/ExplosionSmall.png", 5, 11 });
+			GameObject::AddGameObject(new FX{ m_RootCenter.x + 24.0f, m_RootCenter.y, "Resources/FX/ExplosionSmall.png", 5, 11 });
 
 			DropRandomly(Pickupable::Type::GreyGem, 3);
 			DropRandomly(Pickupable::Type::GoldGem, 1);
@@ -147,7 +147,7 @@ void Dozedrake::Update(float elapsedSeconds)
 			++FXCounter;
 
 			const Vector2f randomOffset{ myutils::GetRandom(Vector2f(64.0f, 32.0f), Vector2f(-64.0f, -32.0f)) };
-			GameObject::AddGameObject(new FX{ m_RootCenter + randomOffset, "FX/ExplosionSmall.png", 5, 11 });
+			GameObject::AddGameObject(new FX{ m_RootCenter + randomOffset, "Resources/FX/ExplosionSmall.png", 5, 11 });
 		}
 
 		break;
@@ -158,7 +158,7 @@ void Dozedrake::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBox
 {
 	if (localHurtBoxIndex == 1 && m_Health)
 	{
-		SoundManager::PlayEffect("Audio/DozendrakeDamage.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/DozendrakeDamage.wav", false);
 
 		switch (m_State)
 		{
@@ -185,7 +185,7 @@ void Dozedrake::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBox
 
 		if (!--m_Health)
 		{
-			SoundManager::PlayEffect("Audio/DozendrakeDie.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/DozendrakeDie.wav", false);
 			m_State = State::Dying;
 			SpriteAnimator::SetCurrentRowIndex(5, 1);
 			SimpleSprite::Blink(50, m_MaxDyingSeconds);
@@ -200,7 +200,7 @@ void Dozedrake::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBox
 	}
 	else if (localHurtBoxIndex == 0)
 	{
-		SoundManager::PlayEffect("Audio/BubbleThrust.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/BubbleThrust.wav", false);
 	}
 }
 
@@ -217,7 +217,7 @@ void Dozedrake::OnColumnChange(int currentColumnIndex)
 		break;
 
 	case Dozedrake::State::OpeningMouth:
-		SoundManager::PlayEffect("Audio/DozendrakeShoot.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/DozendrakeShoot.wav", false);
 		m_State = State::Blowing;
 		SpriteAnimator::SetCurrentRowIndex(4, 1);
 		break;

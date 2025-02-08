@@ -9,7 +9,7 @@
 Platter::Platter(const Point2f& bottomLeft) :
 	GameObject(bottomLeft.x + 8.0f, bottomLeft.y + 9.0f, true),
 	HurtBox(m_RootCenter, 0.2f),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/Platter.png", 7),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/Platter.png", 7),
 
 	m_MaxAccumulatedTime{ 0.2f },
 	m_AccumulatedTime{}
@@ -49,11 +49,11 @@ void Platter::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxIn
 {
 	if (!hurtNormals.y)
 	{
-		SoundManager::PlayEffect("Audio/OpenPlatter.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/OpenPlatter.wav", false);
 		GameObject::Delete();
 
-		GameObject::AddGameObject(new Particle{m_RootCenter, "Particles/Platter0.png", Vector2f(-100.0f, 240.0f) });
-		GameObject::AddGameObject(new Particle{m_RootCenter, "Particles/Platter1.png", Vector2f(100.0f, 240.0f) });
+		GameObject::AddGameObject(new Particle{m_RootCenter, "Resources/Particles/Platter0.png", Vector2f(-100.0f, 240.0f) });
+		GameObject::AddGameObject(new Particle{m_RootCenter, "Resources/Particles/Platter1.png", Vector2f(100.0f, 240.0f) });
 
 		GameObject::AddGameObject(new Pickupable{ m_RootCenter, Pickupable::Type::Chicken, Vector2f(0.0f, 240.0f) });
 	}

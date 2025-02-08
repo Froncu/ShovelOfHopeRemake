@@ -5,8 +5,8 @@
 
 #pragma region Constructors/Destructor
 HUD::HUD(const Rectf& viewPort, const ShovelKnight* const pPlayer) :
-	m_tBorder{ "HUD/Border.png" },
-	m_tScore{ std::string("0"), std::string("HUD/Font.ttf"), 32, Color4f(1.0f, 1.0f, 1.0f, 1.0f) }, m_tHealthPlayer{ "HUD/HealthPlayer.png" }, m_tHealthEnemy{ "HUD/HealthBoss.png" },
+	m_tBorder{ "Resources/HUD/Border.png" },
+	m_tScore{ std::string("0"), std::string("Resources/HUD/Font.ttf"), 32, Color4f(1.0f, 1.0f, 1.0f, 1.0f) }, m_tHealthPlayer{ "Resources/HUD/HealthPlayer.png" }, m_tHealthEnemy{ "Resources/HUD/HealthBoss.png" },
 
 	m_ViewPort{ viewPort },
 	m_Scalar{ m_ViewPort.width / m_tBorder.GetWidth() },
@@ -24,7 +24,7 @@ void HUD::Update(float elapsedSeconds)
 {
 	if (m_DisplayedScore != m_pPlayer->m_Score)
 	{
-		m_tScore = Texture(std::to_string(m_pPlayer->m_Score), std::string("HUD/Font.ttf"), 32, Color4f(1.0f, 1.0f, 1.0f, 1.0f));
+		m_tScore = Texture(std::to_string(m_pPlayer->m_Score), std::string("Resources/HUD/Font.ttf"), 32, Color4f(1.0f, 1.0f, 1.0f, 1.0f));
 	}
 }
 

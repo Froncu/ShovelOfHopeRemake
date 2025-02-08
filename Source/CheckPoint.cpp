@@ -7,7 +7,7 @@
 CheckPoint::CheckPoint(const Point2f& bottomLeft) :
 	GameObject(bottomLeft.x + 8.0f, bottomLeft.y + 26.5f),
 	HurtBox(m_RootCenter, 0.2f),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/CheckPoint.png", 7),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/CheckPoint.png", 7),
 	SpriteAnimator(5, 3, 0.18f),
 
 	m_IsActivated{},
@@ -59,10 +59,10 @@ void CheckPoint::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBo
 {
 	if (hurtNormals.y)
 	{
-		SoundManager::PlayEffect("Audio/CheckPointDamage.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/CheckPointDamage.wav", false);
 		if (!m_IsActivated)
 		{
-			SoundManager::PlayEffect("Audio/CheckPointActivate.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/CheckPointActivate.wav", false);
 			m_IsActivated = true;
 
 			SpriteAnimator::SetFrameSeconds(0.09f);

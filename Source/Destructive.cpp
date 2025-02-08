@@ -99,7 +99,7 @@ void Destructive::Update(float elapsedSeconds)
 			if (pDestructiveBlock->m_WasHurt)
 			{
 				pDestructiveBlock->GameObject::Delete();
-				GameObject::AddGameObject(new FX{ pDestructiveBlock->m_RootCenter, "FX/MoneyPoofSmall.png", 7, 11 });
+				GameObject::AddGameObject(new FX{ pDestructiveBlock->m_RootCenter, "Resources/FX/MoneyPoofSmall.png", 7, 11 });
 
 				m_spNextToDestroy.insert(pDestructiveBlock);
 
@@ -109,7 +109,7 @@ void Destructive::Update(float elapsedSeconds)
 
 		if (!m_CheckForHurt)
 		{
-			SoundManager::PlayEffect("Audio/WallDestroy.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/WallDestroy.wav", false);
 			DestroyNext();
 		}
 	}
@@ -155,7 +155,7 @@ void Destructive::DestroyNext()
 	for (DestructiveBlock* pDestructiveBlock : m_spNextToDestroy)
 	{
 		pDestructiveBlock->GameObject::Delete();
-		GameObject::AddGameObject(new FX{ pDestructiveBlock->m_RootCenter, "FX/MoneyPoofSmall.png", 7, 11 });
+		GameObject::AddGameObject(new FX{ pDestructiveBlock->m_RootCenter, "Resources/FX/MoneyPoofSmall.png", 7, 11 });
 
 		if (pDestructiveBlock->m_pGameObjectToDrop)
 		{

@@ -6,7 +6,7 @@ MovingPlatform::MovingPlatform(const Point2f& startCenter, const Point2f& localE
 	GameObject(startCenter.x + startingFragment * localEndCenter.x, startCenter.y + startingFragment * localEndCenter.y, true),
 	KinematicCollider(m_RootCenter, 48.0f, 16.0f),
 	Rigidbody(m_RootCenter, 0.0f, Vector2f((localEndCenter.x) / (period / 2), (localEndCenter.y) / (period / 2))),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/MovingPlatform.png", 7),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/MovingPlatform.png", 7),
 
 	m_StartCenter{ startCenter },
 	m_EndCenter{ m_StartCenter.x + localEndCenter.x, m_StartCenter.y + localEndCenter.y },

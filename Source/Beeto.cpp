@@ -15,7 +15,7 @@ Beeto::Beeto(const Point2f& bottomLeft, bool isFacingLeft, float localLeftBorder
 	Rigidbody(m_RootCenter, 0.25f, Vector2f(36.0f, 100.0f)),
 	HurtBox(m_RootCenter),
 	HitBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0, -1, "Entities/Beeto.png", 8),
+	SimpleSprite(m_RootCenter, 0, -1, "Resources/Entities/Beeto.png", 8),
 	SpriteAnimator(4, 2, 0.25f, 0, 4),
 
 	m_LeftBorder{ localLeftBorder ? bottomLeft.x + localLeftBorder : 0.0f }, m_RightBorder{ localRightBorder ? bottomLeft.x + localRightBorder : 0.0f },
@@ -84,9 +84,9 @@ void Beeto::OnCollision(const utils::HitInfo& hitInfo)
 	{
 		if (m_HasBeenHurt)
 		{
-			SoundManager::PlayEffect("Audio/Kill.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/Kill.wav", false);
 			GameObject::Delete();
-			GameObject::AddGameObject(new FX{ m_RootCenter, "FX/Poof.png", 5, 8, 0.1f });
+			GameObject::AddGameObject(new FX{ m_RootCenter, "Resources/FX/Poof.png", 5, 8, 0.1f });
 
 			const float horizontalDirection{ m_Velocity.x / abs(m_Velocity.x) };
 			const Vector2f minimalRandomInitialVelocity{ 60.0f, 200.0f }, maximalRandomInitialVelocity{ 80.0f, 300.0f };
@@ -100,7 +100,7 @@ void Beeto::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxInde
 {
 	if (!hurtNormals.y)
 	{
-		SoundManager::PlayEffect("Audio/BeetleFlip.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/BeetleFlip.wav", false);
 
 		m_Velocity.x = hurtNormals.x * abs(m_MaxVelocity.x);
 		m_Velocity.y = m_MaxVelocity.y;
@@ -112,10 +112,10 @@ void Beeto::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxInde
 	}
 	else
 	{
-		SoundManager::PlayEffect("Audio/Kill.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/Kill.wav", false);
 
 		GameObject::Delete();
-		GameObject::AddGameObject(new FX{ m_RootCenter, "FX/Poof.png", 5, 8, 0.1f });
+		GameObject::AddGameObject(new FX{ m_RootCenter, "Resources/FX/Poof.png", 5, 8, 0.1f });
 
 		const Vector2f minimalRandomInitialVelocity{ 60.0f, 200.0f }, maximalRandomInitialVelocity{ 80.0f, 300.0f };
 		const Vector2f randomInitialVelocity{ myutils::GetRandom(maximalRandomInitialVelocity, minimalRandomInitialVelocity) };

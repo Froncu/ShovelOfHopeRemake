@@ -69,58 +69,58 @@ void LevelManager::Load(const Rectf& viewPort)
 	m_pPLAYER = new ShovelKnight{ m_PLAYER_START_POSITION };
 	m_pHUD = new HUD{ m_VIEW_PORT, m_pPLAYER };
 
-	SoundManager::PlayStream("Audio/LevelAudio.mp3", true);
+	SoundManager::PlayStream("Resources/Audio/LevelAudio.mp3", true);
 	SoundManager::SetVolumeEffect(255);
 
 	//	Other level related
-	Camera::SetSVGPath("Level/SVG/CameraZones.svg");
+	Camera::SetSVGPath("Resources/Level/SVG/CameraZones.svg");
 	Camera::SetViewPort(m_VIEW_PORT);
 	Camera::SetGameObjectToFollow(m_pPLAYER);
 
-	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Level/Textures/Sky.png", 0 });
-	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Level/Textures/Castle.png", 1 });
-	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Level/Textures/Trees3.png", 2 });
-	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Level/Textures/Trees2.png", 3 });
-	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Level/Textures/Trees1.png", 4 });
+	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Resources/Level/Textures/Sky.png", 0 });
+	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Resources/Level/Textures/Castle.png", 1 });
+	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Resources/Level/Textures/Trees3.png", 2 });
+	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Resources/Level/Textures/Trees2.png", 3 });
+	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Resources/Level/Textures/Trees1.png", 4 });
 
-	GameObjectManager::AddGameObject(new Background{ 2032.0f, 560.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 11, 3 });
-	GameObjectManager::AddGameObject(new Background{ 2832.0f, 480.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 18, 8 });
-	GameObjectManager::AddGameObject(new Background{ 2800.0f, 208.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 25, 13 });
-	GameObjectManager::AddGameObject(new Background{ 3072.0f, 32.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 6, 11 });
-	GameObjectManager::AddGameObject(new Background{ 2720.0f, 32.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 16, 8 });
-	GameObjectManager::AddGameObject(new Background{ 2640.0f, 0.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 4, 8 });
-	GameObjectManager::AddGameObject(new Background{ 2544.0f, 32.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 3, 6 });
-	GameObjectManager::AddGameObject(new Background{ 2480.0f, 0.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 2, 8 });
-	GameObjectManager::AddGameObject(new Background{ 3168.0f, 32.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 51, 9 });
-	GameObjectManager::AddGameObject(new Background{ 3232.0f, 176.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 7 });
-	GameObjectManager::AddGameObject(new Background{ 3408.0f, 176.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 1 });
-	GameObjectManager::AddGameObject(new Background{ 3536.0f, 176.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 7 });
-	GameObjectManager::AddGameObject(new Background{ 3696.0f, 176.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 1 });
-	GameObjectManager::AddGameObject(new Background{ 3776.0f, 176.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 3 });
-	GameObjectManager::AddGameObject(new Background{ 4000.0f, 16.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 16, 25 });
-	GameObjectManager::AddGameObject(new Background{ 4272.0f, 32.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 6, 8 });
-	GameObjectManager::AddGameObject(new Background{ 4272.0f, 160.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 6 });
-	GameObjectManager::AddGameObject(new Background{ 4256.0f, 208.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 42, 9 });
-	GameObjectManager::AddGameObject(new Background{ 4256.0f, 352.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 42 });
-	GameObjectManager::AddGameObject(new Background{ 4000.0f, 416.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 3, 24 });
-	GameObjectManager::AddGameObject(new Background{ 4000.0f, 800.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 3 });
-	GameObjectManager::AddGameObject(new Background{ 4160.0f, 464.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 8, 8 });
-	GameObjectManager::AddGameObject(new Background{ 4160.0f, 592.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 8 });
-	GameObjectManager::AddGameObject(new Background{ 5680.0f, 624.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 3, 9 });
-	GameObjectManager::AddGameObject(new Background{ 5680.0f, 768.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 3 });
-	GameObjectManager::AddGameObject(new Background{ 5288.0f, 1040.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 6, 8 });
-	GameObjectManager::AddGameObject(new Background{ 5288.0f, 1168.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 6 });
-	GameObjectManager::AddGameObject(new Background{ 5464.0f, 1040.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 1, 8 });
-	GameObjectManager::AddGameObject(new Background{ 5464.0f, 1168.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 1 });
-	GameObjectManager::AddGameObject(new Background{ 5512.0f, 1040.0f, "Level/Textures/TileableWaterfall.png", 5, 3, 1, 8 });
-	GameObjectManager::AddGameObject(new Background{ 5512.0f, 1168.0f, "Level/Textures/TileableWaterfallTop.png", 5, 3, 1 });
+	GameObjectManager::AddGameObject(new Background{ 2032.0f, 560.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 11, 3 });
+	GameObjectManager::AddGameObject(new Background{ 2832.0f, 480.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 18, 8 });
+	GameObjectManager::AddGameObject(new Background{ 2800.0f, 208.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 25, 13 });
+	GameObjectManager::AddGameObject(new Background{ 3072.0f, 32.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 6, 11 });
+	GameObjectManager::AddGameObject(new Background{ 2720.0f, 32.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 16, 8 });
+	GameObjectManager::AddGameObject(new Background{ 2640.0f, 0.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 4, 8 });
+	GameObjectManager::AddGameObject(new Background{ 2544.0f, 32.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 3, 6 });
+	GameObjectManager::AddGameObject(new Background{ 2480.0f, 0.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 2, 8 });
+	GameObjectManager::AddGameObject(new Background{ 3168.0f, 32.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 51, 9 });
+	GameObjectManager::AddGameObject(new Background{ 3232.0f, 176.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 7 });
+	GameObjectManager::AddGameObject(new Background{ 3408.0f, 176.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 1 });
+	GameObjectManager::AddGameObject(new Background{ 3536.0f, 176.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 7 });
+	GameObjectManager::AddGameObject(new Background{ 3696.0f, 176.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 1 });
+	GameObjectManager::AddGameObject(new Background{ 3776.0f, 176.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 3 });
+	GameObjectManager::AddGameObject(new Background{ 4000.0f, 16.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 16, 25 });
+	GameObjectManager::AddGameObject(new Background{ 4272.0f, 32.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 6, 8 });
+	GameObjectManager::AddGameObject(new Background{ 4272.0f, 160.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 6 });
+	GameObjectManager::AddGameObject(new Background{ 4256.0f, 208.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 42, 9 });
+	GameObjectManager::AddGameObject(new Background{ 4256.0f, 352.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 42 });
+	GameObjectManager::AddGameObject(new Background{ 4000.0f, 416.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 3, 24 });
+	GameObjectManager::AddGameObject(new Background{ 4000.0f, 800.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 3 });
+	GameObjectManager::AddGameObject(new Background{ 4160.0f, 464.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 8, 8 });
+	GameObjectManager::AddGameObject(new Background{ 4160.0f, 592.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 8 });
+	GameObjectManager::AddGameObject(new Background{ 5680.0f, 624.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 3, 9 });
+	GameObjectManager::AddGameObject(new Background{ 5680.0f, 768.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 3 });
+	GameObjectManager::AddGameObject(new Background{ 5288.0f, 1040.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 6, 8 });
+	GameObjectManager::AddGameObject(new Background{ 5288.0f, 1168.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 6 });
+	GameObjectManager::AddGameObject(new Background{ 5464.0f, 1040.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 1, 8 });
+	GameObjectManager::AddGameObject(new Background{ 5464.0f, 1168.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 1 });
+	GameObjectManager::AddGameObject(new Background{ 5512.0f, 1040.0f, "Resources/Level/Textures/TileableWaterfall.png", 5, 3, 1, 8 });
+	GameObjectManager::AddGameObject(new Background{ 5512.0f, 1168.0f, "Resources/Level/Textures/TileableWaterfallTop.png", 5, 3, 1 });
 
-	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Level/Textures/Cave.png", 6 });
-	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Level/Textures/Grass.png", 11 });
+	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Resources/Level/Textures/Cave.png", 6 });
+	GameObjectManager::AddGameObject(new Background{ 0.0f, 0.0f, "Resources/Level/Textures/Grass.png", 11 });
 
-	GameObjectManager::AddGameObject(new SVGDeathZone{ "Level/SVG/DeathZone.svg" });
+	GameObjectManager::AddGameObject(new SVGDeathZone{ "Resources/Level/SVG/DeathZone.svg" });
 
-	GameObjectManager::AddGameObject(new SVGMap{ "Level/SVG/Ground.svg" });
+	GameObjectManager::AddGameObject(new SVGMap{ "Resources/Level/SVG/Ground.svg" });
 
 	GameObjectManager::AddGameObject(m_pPLAYER);
 
@@ -678,7 +678,7 @@ void LevelManager::Update(float elapsedSeconds)
 			m_pPLAYER->Reset(spawnCenter.x, spawnCenter.y, m_LAST_PLAYER_SCORE);
 			Camera::SetGameObjectToFollow(m_pPLAYER);
 
-			SoundManager::PlayStream("Audio/LevelAudio.mp3", true);
+			SoundManager::PlayStream("Resources/Audio/LevelAudio.mp3", true);
 
 			m_STATE = State::RespawnTransitionOut;
 		}
@@ -717,9 +717,9 @@ void LevelManager::Draw()
 
 	if (m_STATE == State::Pause)
 	{
-		Texture movement{ "A == left <> D == right <> SPACE (hold) == Jump (higher)", "HUD/Font.ttf", 14, Color4f(1.0f, 1.0f, 1.0f, 1.0f) };
-		Texture ladder{ "W == Up/Grab (ladder) <> S == Down (ladder)", "HUD/Font.ttf", 16, Color4f(1.0f, 1.0f, 1.0f, 1.0f) };
-		Texture attacks{ "L == Swing <> S (In-air) == Thrust", "HUD/Font.ttf", 18, Color4f(1.0f, 1.0f, 1.0f, 1.0f) };
+		Texture movement{ "A == left <> D == right <> SPACE (hold) == Jump (higher)", "Resources/HUD/Font.ttf", 14, Color4f(1.0f, 1.0f, 1.0f, 1.0f) };
+		Texture ladder{ "W == Up/Grab (ladder) <> S == Down (ladder)", "Resources/HUD/Font.ttf", 16, Color4f(1.0f, 1.0f, 1.0f, 1.0f) };
+		Texture attacks{ "L == Swing <> S (In-air) == Thrust", "Resources/HUD/Font.ttf", 18, Color4f(1.0f, 1.0f, 1.0f, 1.0f) };
 
 		const float offsetX{ m_VIEW_PORT.width / 6 }, offsetY{ m_VIEW_PORT.height / 4 };
 		const Rectf rectangle{ m_VIEW_PORT.left + offsetX, m_VIEW_PORT.bottom + offsetY, m_VIEW_PORT.width - 2 * offsetX, m_VIEW_PORT.height - 2 * offsetY };

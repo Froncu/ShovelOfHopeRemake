@@ -10,15 +10,15 @@
 std::map<Pickupable::Type, std::string> Pickupable::m_mTYPESPRITEPATH
 {
 	std::pair<Pickupable::Type, std::string>(Type::Empty, ""),
-	std::pair<Pickupable::Type, std::string>(Type::GreyGem, "Pickupables/GreyGem.png"),
-	std::pair<Pickupable::Type, std::string>(Type::BlueGem, "Pickupables/BlueGem.png"),
-	std::pair<Pickupable::Type, std::string>(Type::GreenGem, "Pickupables/GreenGem.png"),
-	std::pair<Pickupable::Type, std::string>(Type::GoldGem, "Pickupables/GoldGem.png"),
-	std::pair<Pickupable::Type, std::string>(Type::RedGem, "Pickupables/RedGem.png"),
-	std::pair<Pickupable::Type, std::string>(Type::MagentaGem, "Pickupables/MagentaGem.png"),
-	std::pair<Pickupable::Type, std::string>(Type::Carrot, "Pickupables/Carrot.png"),
-	std::pair<Pickupable::Type, std::string>(Type::Apple, "Pickupables/Apple.png"),
-	std::pair<Pickupable::Type, std::string>(Type::Chicken, "Pickupables/Chicken.png")
+	std::pair<Pickupable::Type, std::string>(Type::GreyGem, "Resources/Pickupables/GreyGem.png"),
+	std::pair<Pickupable::Type, std::string>(Type::BlueGem, "Resources/Pickupables/BlueGem.png"),
+	std::pair<Pickupable::Type, std::string>(Type::GreenGem, "Resources/Pickupables/GreenGem.png"),
+	std::pair<Pickupable::Type, std::string>(Type::GoldGem, "Resources/Pickupables/GoldGem.png"),
+	std::pair<Pickupable::Type, std::string>(Type::RedGem, "Resources/Pickupables/RedGem.png"),
+	std::pair<Pickupable::Type, std::string>(Type::MagentaGem, "Resources/Pickupables/MagentaGem.png"),
+	std::pair<Pickupable::Type, std::string>(Type::Carrot, "Resources/Pickupables/Carrot.png"),
+	std::pair<Pickupable::Type, std::string>(Type::Apple, "Resources/Pickupables/Apple.png"),
+	std::pair<Pickupable::Type, std::string>(Type::Chicken, "Resources/Pickupables/Chicken.png")
 };
 #pragma endregion StaticDataMembers
 
@@ -154,7 +154,7 @@ Pickupable::Pickupable(const Point2f& center, int value) :
 	GameObject(center),
 	DynamicCollider(m_RootCenter),
 	Rigidbody(m_RootCenter, 0.0f),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Pickupables/DBag.png", 9),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Pickupables/DBag.png", 9),
 	SpriteAnimator(3, 3, 0.1f, value <= 50 ? 1 : value <= 250 ? 2 : 0, 3),
 
 	m_LocalPickupArea{},
@@ -240,7 +240,7 @@ void Pickupable::OnCollision(const utils::HitInfo& hitInfo)
 		{
 			if (!m_Heals && !m_WasAudioPlayed)
 			{
-				SoundManager::PlayEffect("Audio/GemDrop.wav", false);
+				SoundManager::PlayEffect("Resources/Audio/GemDrop.wav", false);
 				m_WasAudioPlayed = true;
 			}
 
@@ -263,29 +263,29 @@ void Pickupable::OnPickup()
 			switch (m_Value)
 			{
 			case 1:
-				SoundManager::PlayEffect("Audio/GemGrey.wav", false);
+				SoundManager::PlayEffect("Resources/Audio/GemGrey.wav", false);
 				break;
 
 			case 20:
-				SoundManager::PlayEffect("Audio/GemGold.wav", false);
+				SoundManager::PlayEffect("Resources/Audio/GemGold.wav", false);
 				break;
 
 			case 50:
-				SoundManager::PlayEffect("Audio/GemRed.wav", false);
+				SoundManager::PlayEffect("Resources/Audio/GemRed.wav", false);
 				break;
 
 			case 200:
-				SoundManager::PlayEffect("Audio/GemMagenta.wav", false);
+				SoundManager::PlayEffect("Resources/Audio/GemMagenta.wav", false);
 				break;
 
 			default:
-				SoundManager::PlayEffect("Audio/GemStandard.wav", false);
+				SoundManager::PlayEffect("Resources/Audio/GemStandard.wav", false);
 				break;
 			}
 		}
 		else
 		{
-			SoundManager::PlayEffect("Audio/Food.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/Food.wav", false);
 		}
 
 		GameObject::Delete();
@@ -299,12 +299,12 @@ void Pickupable::OnPickup()
 				myutils::GetRandom(m_RootCenter.y + m_LocalPickupArea.height / 2 + m_LocalPickupArea.bottom, m_RootCenter.y - m_LocalPickupArea.height / 2 + m_LocalPickupArea.bottom)
 			};
 
-			GameObject::AddGameObject(new FX(randomFXPosition, "FX/PickupSparkleParticle.png", 3, 12, 0.1f));
+			GameObject::AddGameObject(new FX(randomFXPosition, "Resources/FX/PickupSparkleParticle.png", 3, 12, 0.1f));
 		}
 	}
 	else
 	{
-		SoundManager::PlayEffect("Audio/GemStandard.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/GemStandard.wav", false);
 		GameObject::Delete();
 
 		for (int index{}; index < m_AmountOfFX; ++index)
@@ -316,7 +316,7 @@ void Pickupable::OnPickup()
 				myutils::GetRandom(m_RootCenter.y + m_LocalPickupArea.height / 2 + m_LocalPickupArea.bottom, m_RootCenter.y - m_LocalPickupArea.height / 2 + m_LocalPickupArea.bottom)
 			};
 
-			GameObject::AddGameObject(new FX(randomFXPosition, "FX/PickupSparkleParticle.png", 3, 12, 0.1f));
+			GameObject::AddGameObject(new FX(randomFXPosition, "Resources/FX/PickupSparkleParticle.png", 3, 12, 0.1f));
 		}
 	}
 }

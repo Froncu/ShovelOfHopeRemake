@@ -13,7 +13,7 @@
 DigClod::DigClod(const Point2f& bottomLeft, bool isFlipped) :
 	GameObject(bottomLeft.x + (isFlipped ? 11.0f : 5.0f), bottomLeft.y + 12.5f, true),
 	HurtBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/DigClod.png", 7),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/DigClod.png", 7),
 	SpriteAnimator(5, 3, 0.1f, 0, 1),
 
 	m_MaxIdleSeconds{ 4.0f }, m_MaxDespawningSeconds{ 0.8f },
@@ -55,7 +55,7 @@ void DigClod::Update(float elapsedSeconds)
 
 void DigClod::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxIndex)
 {
-	SoundManager::PlayEffect("Audio/DigClodBreak.wav", false);
+	SoundManager::PlayEffect("Resources/Audio/DigClodBreak.wav", false);
 
 	SpriteAnimator::SetCurrentRowIndex(2, 1);
 	SimpleSprite::Blink(int(10 * m_MaxDespawningSeconds), m_MaxDespawningSeconds);

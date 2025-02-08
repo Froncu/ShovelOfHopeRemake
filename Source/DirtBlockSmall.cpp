@@ -9,7 +9,7 @@ DirtBlockSmall::DirtBlockSmall(const Point2f& bottomLeft, Pickupable::Type picku
 	GameObject(bottomLeft.x + 8.0f, bottomLeft.y + 8.0f),
 	KinematicCollider(m_RootCenter, 16.0f, 16.0f),
 	HurtBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/DirtBlockSmall.png", 8),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/DirtBlockSmall.png", 8),
 
 	m_PickupableToDrop{ pickupableToDrop }
 {
@@ -31,22 +31,22 @@ void DirtBlockSmall::OnHurt(const Vector2f& hurtNormals, int damage, int localHu
 {
 	GameObject::Delete();
 
-	GameObject::AddGameObject(new FX(m_RootCenter, "FX/DirtBlockSmallPop.png", 3, 8, 0.1f));
+	GameObject::AddGameObject(new FX(m_RootCenter, "Resources/FX/DirtBlockSmallPop.png", 3, 8, 0.1f));
 
 	if (m_PickupableToDrop != Pickupable::Type::Empty)
 	{
 		GameObject::AddGameObject(new Pickupable(m_RootCenter, m_PickupableToDrop, 0, 360.0f));
 
-		GameObject::AddGameObject(new FX(m_RootCenter, "FX/MoneyPoofSmall.png", 7, 8));
+		GameObject::AddGameObject(new FX(m_RootCenter, "Resources/FX/MoneyPoofSmall.png", 7, 8));
 	}		
 
 	if (hurtNormals.y)
 	{
-		SoundManager::PlayEffect("Audio/DirtBlockThrust.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/DirtBlockThrust.wav", false);
 	}
 	else
 	{
-		SoundManager::PlayEffect("Audio/DirtBlockShovel.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/DirtBlockShovel.wav", false);
 	}
 }
 #pragma endregion Components

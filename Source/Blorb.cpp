@@ -14,7 +14,7 @@ Blorb::Blorb(const GameObject* const pTarget, const Point2f& bottomLeft) :
 	Rigidbody(m_RootCenter, 1.0f, Vector2f(100.0f, 140.0f)),
 	HurtBox(m_RootCenter),
 	HitBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Entities/Blorb.png", 8),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Entities/Blorb.png", 8),
 	SpriteAnimator(4, 1, 0.2f),
 
 	m_pTarget{ pTarget },
@@ -142,7 +142,7 @@ void Blorb::Update(float elapsedSeconds)
 		m_Velocity.x = 0;
 		m_Velocity.y = m_MaxVelocity.y;
 
-		SoundManager::PlayEffect("Audio/BlorbJump.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/BlorbJump.wav", false);
 		m_State = State::Jumped;
 		break;
 
@@ -151,7 +151,7 @@ void Blorb::Update(float elapsedSeconds)
 		m_Velocity.x = direction.x * m_MaxVelocity.x;
 		m_Velocity.y = m_MaxVelocity.y;
 
-		SoundManager::PlayEffect("Audio/BlorbJump.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/BlorbJump.wav", false);
 		m_State = State::Attacked;
 		break;
 	}
@@ -172,10 +172,10 @@ void Blorb::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxInde
 
 	if (!--m_Health)
 	{
-		SoundManager::PlayEffect("Audio/Kill.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/Kill.wav", false);
 		GameObject::Delete();
 
-		GameObject::AddGameObject(new FX{ m_RootCenter, "FX/Poof.png", 5, 8, 0.1f });
+		GameObject::AddGameObject(new FX{ m_RootCenter, "Resources/FX/Poof.png", 5, 8, 0.1f });
 
 		const Vector2f minimalRandomInitialVelocity1{ -100.0f, 240.0f }, maximalRandomInitialVelocity1{ 100.0f, 360.0f };
 		const Vector2f randomInitialVelocity1{ myutils::GetRandom(maximalRandomInitialVelocity1, minimalRandomInitialVelocity1) };
@@ -187,7 +187,7 @@ void Blorb::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxInde
 	}
 	else
 	{
-		SoundManager::PlayEffect("Audio/DigPile.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/DigPile.wav", false);
 	}
 }
 

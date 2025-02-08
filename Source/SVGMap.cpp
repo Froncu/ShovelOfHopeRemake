@@ -9,7 +9,7 @@
 #pragma region Constructors/Destructor
 SVGMap::SVGMap(const std::string& SVGPath) :
 	GameObject(),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Level/Textures/Ground.png", 10)
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Level/Textures/Ground.png", 10)
 {
 	std::vector<std::vector<Point2f>> vvVertices;
 

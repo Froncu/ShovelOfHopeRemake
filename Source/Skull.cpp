@@ -14,7 +14,7 @@ Skull::Skull(const Point2f& bottomLeft, const Vector2f& initialVelocity) :
 	Rigidbody(m_RootCenter, 1.0f, Vector2f(100.0f, 200.0f)),
 	HurtBox(m_RootCenter),
 	HitBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/Skull.png", 10),
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/Skull.png", 10),
 
 	m_HasBeenHit{}
 {
@@ -46,22 +46,22 @@ void Skull::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxInde
 {
 	if (hurtNormals.y || damage >= 10)
 	{
-		SoundManager::PlayEffect("Audio/SkullScatter.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/SkullScatter.wav", false);
 		GameObject::Delete();
-		GameObject::AddGameObject(new Particle{ m_RootCenter, "Particles/SkullParticle0.png", GetRandomInitialDropVelocity() });
-		GameObject::AddGameObject(new Particle{ m_RootCenter, "Particles/SkullParticle1.png", GetRandomInitialDropVelocity(true) });
-		GameObject::AddGameObject(new Particle{ m_RootCenter, "Particles/SkullParticle2.png", GetRandomInitialDropVelocity() });
+		GameObject::AddGameObject(new Particle{ m_RootCenter, "Resources/Particles/SkullParticle0.png", GetRandomInitialDropVelocity() });
+		GameObject::AddGameObject(new Particle{ m_RootCenter, "Resources/Particles/SkullParticle1.png", GetRandomInitialDropVelocity(true) });
+		GameObject::AddGameObject(new Particle{ m_RootCenter, "Resources/Particles/SkullParticle2.png", GetRandomInitialDropVelocity() });
 	}
 	else
 	{
-		SoundManager::PlayEffect("Audio/SkullShovel.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/SkullShovel.wav", false);
 		m_HasBeenHit = true;
 		HitBox::SetActive(m_HasBeenHit);
 
 		m_Velocity.x = hurtNormals.x * m_MaxVelocity.x;
 		m_Velocity.y = m_MaxVelocity.y;
 
-		GameObject::AddGameObject(new FX{ m_RootCenter.x + (hurtNormals.x == 1 ? 11.5f : -11.5f), m_RootCenter.y + 10.5f, "FX/FlipSpak.png", 4, 12, 0.05f, hurtNormals.x == 1 ? false : true });
+		GameObject::AddGameObject(new FX{ m_RootCenter.x + (hurtNormals.x == 1 ? 11.5f : -11.5f), m_RootCenter.y + 10.5f, "Resources/FX/FlipSpak.png", 4, 12, 0.05f, hurtNormals.x == 1 ? false : true });
 	}
 
 	Rigidbody::SetGravityMultiplier(0.5f);
@@ -73,11 +73,11 @@ void Skull::OnCollision(const utils::HitInfo& hitInfo)
 	{
 		if (m_HasBeenHit)
 		{
-			SoundManager::PlayEffect("Audio/SkullScatter.wav", false);
+			SoundManager::PlayEffect("Resources/Audio/SkullScatter.wav", false);
 			GameObject::Delete();
-			GameObject::AddGameObject(new Particle{ m_RootCenter, "Particles/SkullParticle0.png", GetRandomInitialDropVelocity() });
-			GameObject::AddGameObject(new Particle{ m_RootCenter, "Particles/SkullParticle1.png", GetRandomInitialDropVelocity(true) });
-			GameObject::AddGameObject(new Particle{ m_RootCenter, "Particles/SkullParticle2.png", GetRandomInitialDropVelocity() });
+			GameObject::AddGameObject(new Particle{ m_RootCenter, "Resources/Particles/SkullParticle0.png", GetRandomInitialDropVelocity() });
+			GameObject::AddGameObject(new Particle{ m_RootCenter, "Resources/Particles/SkullParticle1.png", GetRandomInitialDropVelocity(true) });
+			GameObject::AddGameObject(new Particle{ m_RootCenter, "Resources/Particles/SkullParticle2.png", GetRandomInitialDropVelocity() });
 		}
 
 		m_Velocity.y = 0.0f;
@@ -86,7 +86,7 @@ void Skull::OnCollision(const utils::HitInfo& hitInfo)
 	}
 	else if (hitInfo.normal == HORIZONTALNORMAL)
 	{
-		SoundManager::PlayEffect("Audio/SkullBounce.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/SkullBounce.wav", false);
 
 		m_Velocity.x = hitInfo.normal.x * m_MaxVelocity.x;
 
@@ -94,7 +94,7 @@ void Skull::OnCollision(const utils::HitInfo& hitInfo)
 	}
 	else if (hitInfo.normal == -HORIZONTALNORMAL)
 	{
-		SoundManager::PlayEffect("Audio/SkullBounce.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/SkullBounce.wav", false);
 
 		m_Velocity.x = hitInfo.normal.x * m_MaxVelocity.x;
 
@@ -106,7 +106,7 @@ void Skull::OnCollision(const utils::HitInfo& hitInfo)
 
 void Skull::OnHit(const Vector2f& hitNormals, const Vector2f& knockbackVelocity, int localHitBoxIndex)
 {
-	SoundManager::PlayEffect("Audio/SkullBounce.wav", false);
+	SoundManager::PlayEffect("Resources/Audio/SkullBounce.wav", false);
 
 	m_Velocity.x = hitNormals.x * m_MaxVelocity.x;
 	m_Velocity.y = m_MaxVelocity.y;

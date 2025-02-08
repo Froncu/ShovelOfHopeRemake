@@ -13,7 +13,7 @@ Divedrake::Divedrake(const Point2f& pivotPoint, float horizontalAmplitude, float
 	Rigidbody(m_RootCenter),
 	HurtBox(m_RootCenter),
 	HitBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0.0f, 2.0f, "Entities/Divedrake.png", 11),
+	SimpleSprite(m_RootCenter, 0.0f, 2.0f, "Resources/Entities/Divedrake.png", 11),
 	SpriteAnimator(3, 2, 0.2f, 0, 3),
 
 	m_PivotPoint{ m_RootCenter },
@@ -63,9 +63,9 @@ void Divedrake::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBox
 
 	if (!--m_Health)
 	{
-		SoundManager::PlayEffect("Audio/Kill.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/Kill.wav", false);
 		GameObject::Delete();
-		GameObject::AddGameObject(new FX{ m_RootCenter, "FX/Poof.png", 5, 11, 0.1f });
+		GameObject::AddGameObject(new FX{ m_RootCenter, "Resources/FX/Poof.png", 5, 11, 0.1f });
 
 		const Vector2f minimalRandomInitialVelocity{ -100.0f, 240.0f }, maximalRandomInitialVelocity{ 100.0f, 360.0f };
 		const Vector2f randomInitialVelocity{ myutils::GetRandom(maximalRandomInitialVelocity, minimalRandomInitialVelocity) };
@@ -73,7 +73,7 @@ void Divedrake::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBox
 	}
 	else
 	{
-		SoundManager::PlayEffect("Audio/DigPile.wav", false);
+		SoundManager::PlayEffect("Resources/Audio/DigPile.wav", false);
 	}
 }
 #pragma endregion Components

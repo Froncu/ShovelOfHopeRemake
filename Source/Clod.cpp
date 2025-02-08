@@ -14,7 +14,7 @@ Clod::Clod(const Point2f& center, const Vector2f& initialVelocity) :
 	DynamicCollider(m_RootCenter),
 	Rigidbody(m_RootCenter),
 	HurtBox(m_RootCenter),
-	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Environment/Clod.png", 7)
+	SimpleSprite(m_RootCenter, 0.0f, 0.0f, "Resources/Environment/Clod.png", 7)
 {
 	DynamicCollider::m_LocalCollisionBox.width = 16.0f;
 	DynamicCollider::m_LocalCollisionBox.height = 16.0f;
@@ -45,7 +45,7 @@ void Clod::OnCollision(const utils::HitInfo& hitInfo)
 {
 	if (hitInfo.normal == VERTICALNORMAL)
 	{
-		if (m_Velocity.x != 0.0f) SoundManager::PlayEffect("Audio/DigClodLand.wav", false);
+		if (m_Velocity.x != 0.0f) SoundManager::PlayEffect("Resources/Audio/DigClodLand.wav", false);
 
 		m_Velocity.x = 0.0f;
 	}
@@ -53,7 +53,7 @@ void Clod::OnCollision(const utils::HitInfo& hitInfo)
 
 void Clod::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxIndex)
 {
-	SoundManager::PlayEffect("Audio/DigClodBreak.wav", false);
+	SoundManager::PlayEffect("Resources/Audio/DigClodBreak.wav", false);
 	GameObject::Delete();
 
 	DropRandomly(Pickupable::Type::GoldGem, 2);
@@ -65,7 +65,7 @@ void Clod::OnHurt(const Vector2f& hurtNormals, int damage, int localHurtBoxIndex
 		const Vector2f minimalRandomInitialVelocity{ -100.0f + droppedAmount * 50.0f, 320.0f }, maximalRandomInitialVelocity{ -50.0f + droppedAmount * 50.0f, 360.0f };
 		const Vector2f randomInitialVelocity{ myutils::GetRandom(maximalRandomInitialVelocity, minimalRandomInitialVelocity) };
 
-		const std::string particlePath{ "Particles/DirtParticle" + std::to_string(myutils::GetRandom(1)) + ".png" };
+		const std::string particlePath{ "Resources/Particles/DirtParticle" + std::to_string(myutils::GetRandom(1)) + ".png" };
 		GameObject::AddGameObject(new Particle{ m_RootCenter, particlePath, hurtNormals.x * randomInitialVelocity.x, randomInitialVelocity.y });
 	}
 }
