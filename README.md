@@ -18,7 +18,7 @@ This project was finished almost 2 years ago counting from the day I'm writing t
 
 In order to build the project, you'll need:
 
-1. MSVC
+1. A compiler with support for C++14
 
 2. CMake
 
