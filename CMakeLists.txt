@@ -62,7 +62,9 @@ target_link_libraries(Game PRIVATE Engine)
 
 target_precompile_headers(Game PRIVATE Source/pch.h)
 
-target_link_options(Game PRIVATE $<$<CXX_COMPILER_ID:GNU,Clang>:-static>)
+target_link_options(Game PRIVATE
+   $<$<CXX_COMPILER_ID:GNU,Clang>:-static>
+   $<$<CXX_COMPILER_ID:MSVC>:/SUBSYSTEM:WINDOWS>)
 
 add_custom_command(TARGET Game
    POST_BUILD
