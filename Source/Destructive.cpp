@@ -10,6 +10,8 @@
 
 #include "SoundManager.h"
 
+#include <algorithm>
+
 #pragma region Constructors/Destructor
 Destructive::Destructive(const Point2f& bottomLeft, int width, int height, std::initializer_list<GameObject*> pGameObjectsToDrop, bool closeLeft, bool closeHigherTop, bool closeLowerTop, bool closeRight, bool closeBottom) :
 	GameObject(bottomLeft.x + width * 16.0f / 2, bottomLeft.y + height * 16.0f / 2),

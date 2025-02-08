@@ -24,6 +24,8 @@
 
 #include "ShovelKnight.h"
 
+#include <algorithm>
+
 //#define DEBUG
 
 #pragma region StaticVariables
@@ -296,7 +298,7 @@ void GameObjectManager::ManageGameOjects(float elapsedSeconds)
 		}
 	}
 
-	std::vector<GameObject*>::iterator newEnd{ remove(m_vpGAME_OBJECTS.begin(), m_vpGAME_OBJECTS.end(), nullptr) };
+	std::vector<GameObject*>::iterator newEnd{ std::remove(m_vpGAME_OBJECTS.begin(), m_vpGAME_OBJECTS.end(), nullptr) };
 	m_vpGAME_OBJECTS.assign(m_vpGAME_OBJECTS.begin(), newEnd);
 }
 
