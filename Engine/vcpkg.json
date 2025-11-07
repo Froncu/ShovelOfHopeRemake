@@ -1,0 +1,17 @@
+{
+   "dependencies": [
+      {
+         "name": "sdl2"
+      },
+      {
+         "name": "sdl2-image"
+      },
+      {
+         "name": "sdl2-ttf"
+      },
+      {
+         "name": "sdl2-mixer",
+         "features": ["mpg123"]
+      }
+   ]
+}

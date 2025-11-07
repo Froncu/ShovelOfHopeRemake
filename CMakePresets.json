@@ -1,0 +1,29 @@
+{
+   "version" : 3,
+   "configurePresets" : [
+      {
+         "name" : "Base",
+         "hidden" : true,
+         "binaryDir" : "${sourceDir}/Build/${presetName}",
+         "cacheVariables" : {
+            "CMAKE_TOOLCHAIN_FILE" : "${sourceDir}/Engine/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "VCPKG_MANIFEST_DIR" : "${sourceDir}/Engine",
+            "VCPKG_DEFAULT_STATIC" : true
+         }
+      },
+      {
+         "inherits" : "Base",
+         "name" : "DefaultDebug",
+         "cacheVariables" : {
+            "CMAKE_BUILD_TYPE" : "Debug"
+         }
+      },
+      {
+         "inherits" : "Base",
+         "name" : "DefaultRelease",
+         "cacheVariables" : {
+            "CMAKE_BUILD_TYPE" : "Release"
+         }
+      }
+   ]
+}
